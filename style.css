@@ -1,0 +1,106 @@
+/* Обнуление асех параметров*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, p {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align:baseline;
+background: transparent;
+}
+
+
+body {
+line-height: 1;
+background-image:url('files/Background3.png');
+}
+
+
+
+#main-container { 	
+   %     border-bottom: 2px solid #a1a1a1;
+    padding-top:50px;
+	width:800px;
+	min-width:600px;
+	height:1200px;
+   	
+margin-left:auto;
+margin-right:auto;
+%background-color:#ababab;
+}
+
+#header {   
+	width:800px;
+	height:80px;
+%	background-color:green;
+}
+#header-container
+	{padding-left:30px;
+	padding-right:30px;
+	
+	height:80px;
+	width:400px;
+margin-left:auto;
+margin-right:auto;
+%background-color:yellow;
+}
+
+#title{
+	
+	height:30px;
+	width:400px;
+
+%background-color:pink;
+}
+
+#span-title{ font:Arial; font-size:20pt}
+
+#navigation {height:30px;
+padding-top:20px;	
+	width:400px;
+%background-color:#945
+}
+
+.nav{font:Arial; font-size:14pt; text-decoration:none; color:black; padding-right:8px }
+
+#div-for-text{
+	width:800px;
+	min-width:600px;
+	height:720px;
+%background-color:c65;
+}
+
+.p-head{padiing-left:50px; padding-bottom:10px; font-size:16pt; padding-top:15px}
+
+#photo{width:254px; height:386px; float:right;  margin-left:20px; margin-top:30px; }
+#picture{width:254px; height:346px;  background-image:url('files/picture_resize_1.jpg') ;  background-repeat:no-repeat;}
+#label{text-align:center;}
+
+.p-text{line-height:1.6}
+
+ol{padding-left:20px}
+
+a.paper-title{color:#888}
+a{text-decoration:none}
+
+
+.a-paper-title:link {
+  color: #265301;
+}
+
+#Publ a:visited {
+  color: #437a16;
+}
+
+li{padding-bottom:10px}
+
+
+ul{padding-left:20px}
